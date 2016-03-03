@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour {
 
 	void TestarEmbaralhamento(){
 		while (i < 17) {
-			pos = new Vector3 (i * 0.3f, 0f, -0.01f*i);
+			pos = new Vector3 ( 0.3f, 3-(i*0.5f), -0.01f*i);
 			GameManagerBase.MoverCarta (carta [i], pos); 
 			GameManagerBase.VirarCarta (carta [i]);
 			i++;

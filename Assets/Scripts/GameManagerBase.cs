@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+//
+//
+// Funções Auxiliares do Game Manager
+//
+//
 public class GameManagerBase : MonoBehaviour {
 	private static Transform mover;
 	private static PolicyCards temp;
